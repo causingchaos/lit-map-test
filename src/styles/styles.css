@@ -1,0 +1,40 @@
+h1 {
+  color: blue;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* IE panel styles -- only shown when IE is detected */
+#copyright {
+  font-size: 15px;
+}
+#ie-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  z-index: 999;
+}
+#ie-panel{
+  margin: 10% auto 0 auto;
+  max-width: 500px;
+  z-index: 1000;
+  padding: 10px;
+  background: #fff;
+  text-align: center;
+  font-size: 1.6em;
+}
+#ie-error-banner{
+  background: red;
+}
+.browser-icon {
+  width: 50px;
+  height: 50px;
+}
+
+
